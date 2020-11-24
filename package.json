@@ -1,0 +1,26 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "chat-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node scr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KobloshAlex/node-sockets.git"
+  },
+  "author": "KobloshAlex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KobloshAlex/node-sockets/issues"
+  },
+  "homepage": "https://github.com/KobloshAlex/node-sockets#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
