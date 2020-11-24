@@ -6,6 +6,13 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<h1>hello</h1>
+		<form id="message-form">
+			<input name="message" type="text" , placeholder="Message" />
+			<button>send text</button>
+        </form>
+        
+        <button id="send-location">Send Location</button>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/chat.js"></script>
 	</body>
 </html>
